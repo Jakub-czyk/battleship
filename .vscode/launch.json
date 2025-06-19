@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Run src.ui",
+      "type": "debugpy",
+      "request": "launch",
+      // uruchamia moduł, nie plik
+      "module": "src.ui",
+      // katalog roboczy to root projektu, nie /src
+      "cwd": "${workspaceFolder}",
+      // dodaj src/ do PYTHONPATH, żeby importy działały wszędzie
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}/src"
+      }
+    }
+  ]
+}

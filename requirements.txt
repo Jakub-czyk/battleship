@@ -1,0 +1,5 @@
+matplotlib
+pytest
+memory_profiler
+flake8
+pylint
