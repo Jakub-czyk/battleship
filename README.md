@@ -18,10 +18,10 @@ Każdy gracz ma 3 statki o długościach 2, 3 i 4 pola, rozmieszczone losowo.
 python -m venv venv
 
 # Windows PowerShell
-.env\Scripts\Activate.ps1
+.venv\Scripts\Activate.ps1
 
 # Windows CMD
-.env\Scriptsctivate.bat
+.venv\Scripts\Activate.bat
 
 # Linux / macOS
 source venv/bin/activate
